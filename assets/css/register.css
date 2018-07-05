@@ -1,0 +1,82 @@
+.navbar {
+	padding-bottom: 55px;
+	background: linear-gradient(180deg, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.29) 76%, rgba(0,0,0,0) 100%);
+}
+
+.a2 {
+	background: rgba(255,255,255, 0.3)!important;
+}
+
+.a2:hover {
+	background: rgba(255,255,255, 0.4)!important;
+}
+
+header {
+	background-image: url(../img/header2.jpg)!important;
+	padding-bottom: 10%!important;
+	background-size: cover;
+	min-height: 1050px;
+	padding: 0px!important;
+}
+
+.reg {
+	background: url(../img/register_bg.png);
+	color: white!important;
+	padding: 20px 60px;
+	background-size: cover;
+}
+
+.inp {
+	font-size: 25px!important;
+	background-color: rgba(255,255,255, 0.2)!important;
+	border: none!important;
+	border-radius: 25px!important;
+	padding: 25px 30px!important;
+	color: white!important;
+	border: 1px solid grey!important;
+	transition: .3s;
+	text-align: center;
+}
+
+.form-group {
+	margin-top: 10px!important;
+	padding-bottom: 15px;
+}
+
+.register-submit {
+	padding: 10px 30px!important;
+	background-color: rgba(255,255,255, 0.2)!important;
+	border-radius: 35px!important;
+	border: none!important;
+	font-size: 20px!important;
+	font-weight: bold;
+	color: white!important;
+	outline: none!important;
+	transition: .3s!important;
+	letter-spacing: 1px;
+}
+
+form label {
+	letter-spacing: 1px;
+}
+
+.register-submit:hover {
+	background-color: rgba(255,255,255,0.1)!important;
+}
+
+input:focus {
+	background-color: rgba(255,255,255,0.1)!important;
+}
+
+@media only screen and (max-width: 500px){
+	.reg {
+		padding: 20px 20px!important;
+	}
+}
+
+@media only screen and (max-width: 995px) {
+    .map {
+    	margin-top: 50px;
+    }
+
+}

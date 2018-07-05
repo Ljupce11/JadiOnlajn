@@ -1,0 +1,31 @@
+.navbar {
+	background: transparent!important;
+}
+
+header {
+	background: url("../img/blurred-background.jpg")!important;
+	min-height: 1100px!important;
+}
+
+.avatar {
+	height: 200px;
+	width: 200px;
+	background: url("../img/avatar.png");
+	background-size: cover;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.user-cont {
+	background-color: rgba(255,255,255, 0.5);
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#username {
+	font-weight: bold;
+}
+
+.user-cont p{
+	font-size: 18px;

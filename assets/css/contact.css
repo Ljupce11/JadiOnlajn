@@ -1,0 +1,24 @@
+header {
+	background-image: url(../img/contact.jpg)!important;
+}
+
+.reg {
+	background: rgba(255,255,255, 0.1)!important;
+	border-radius: 15px;
+}
+
+.inp {
+	border-radius: 15px!important;
+}
+
+.ta {
+	text-align: left;
+	padding: 20px 30px!important;
+	font-size: 20px!important;
+	overflow: hidden;	
+}
+
+.ta:focus {
+	outline: none!important;
+	box-shadow: none!important;
+}
